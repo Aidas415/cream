@@ -21,9 +21,7 @@ body * {
     width: 50%;
 }
 
-.fonas {
-    background-color: aqua;
-}
+
 
 .fon {
     background-color: bisque;
@@ -35,7 +33,7 @@ body * {
     align-items: center;
     width: 70%;
     height: 480px;
-    background-color: chartreuse;
+    background-color: ;
 }
 
 .right-column {
@@ -44,13 +42,15 @@ body * {
 }
 
 .main-title {
-    width: 45%;
+    width: 60%;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(163, 223, 227);
     display:flex;
     flex-wrap: wrap;
-    text-align:center;
+    text-align: center;
     margin-top: 40px;
-    margin-bottom: 50px;
-    border: 1px solid black;
+    margin-bottom: 40px;
 }
  .title {
     display: flex;
@@ -73,16 +73,27 @@ body * {
 .btn {
     width: 20%;
     display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
     justify-content: space-around;
-    margin: 40px;
-    background-color: aqua;
-    border: 1px solid blue;
-    padding: 8px;
+    background-color: rgba(141, 220, 225, 0.731);
+    color: rgb(255, 255, 255);
+    padding: 7px;
 }
 
 .icon-column {
-    display:flexbox;
-    width: 100% / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 20pxpx;
     background-color: yellow;
     border: 1px solid black;
+}
+.icon {
+    font-size: 50px;
+    justify-content: center;
+    color: rgb(122, 103, 103);
+    background-color: bisque;
 }
